@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soundbrave</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🎙️ Soundbrave</h1>
+    <p>AI Meeting & Lecture Recorder</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Recorder</h2>
+
+<button id="recordBtn">🎤 Start Recording</button>
+
+<button id="stopBtn" disabled>⏹ Stop Recording</button>
+
+<p id="status">Ready</p>
+
+<audio id="playback" controls></audio>
+
+</div>
+
+<div class="card">
+
+<h2>AI Transcript</h2>
+
+<textarea id="transcript" placeholder="Transcript will appear here..."></textarea>
+
+</div>
+
+<div class="card">
+
+<h2>AI Summary</h2>
+
+<textarea id="summary" placeholder="Summary generated here..."></textarea>
+
+</div>
+
+<div class="card">
+
+<h2>Search Transcript</h2>
+
+<input type="text" id="search" placeholder="Search keyword">
+
+<button id="searchBtn">Search</button>
+
+</div>
+
+<div class="card">
+
+<h2>Export</h2>
+
+<button>PDF</button>
+
+<button>DOCX</button>
+
+<button>TXT</button>
+
+<button>Share</button>
+
+</div>
+
+<div class="card">
+
+<h2>Folders</h2>
+
+<select>
+
+<option>Meetings</option>
+
+<option>Classes</option>
+
+<option>Internship</option>
+
+</select>
+
+</div>
+
+<div class="card">
+
+<h2>Languages</h2>
+
+<select>
+
+<option>English</option>
+
+<option>Hausa</option>
+
+<option>French</option>
+
+<option>Pidgin</option>
+
+</select>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
